@@ -50,7 +50,7 @@ def pas():
     print('\u001b[37m' + '---------------------------------------------------')
     password = input("Password : ") 
     print('--------------------------------------------')
-    mmm = requests.get(https://pastebin.com/raw/7Pvme1Lh').text
+    mmm = requests.get('https://pastebin.com/raw/7Pvme1Lh').text
 
     if mmm not in password:
         print('[-] <==> Incorrect Password!')
