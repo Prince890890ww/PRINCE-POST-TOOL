@@ -1,6 +1,194 @@
-#ENCODED BY : MUMIT ISLAM HIMU
-#ENCRYPTION : Py3 MARSHAL+ZLIB+B64
-#GITHUB : https://github.com/MUMIT-404-CYBER
-#----------------------------------------------
-import marshal, base64, zlib
-exec(marshal.loads(zlib.decompress(base64.b64decode(b'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')))
+import requests
+import mechanize
+import getpass
+import json
+import random
+import time
+from datetime import datetime
+from bs4 import BeautifulSoup 
+from colorama import Fore, Style
+from rich.panel import Panel
+from platform import system
+import os, platform, binascii, sys, _socket, ssl, certifi, zlib, json, uuid
+from os import system as sh
+from time import sleep
+
+
+logo = r'''
+
+ _______    ______      _____   ______  
+  ______   __                    __                         __        __ 
+ /      \ /  |                  /  |                       /  |      /  |
+/$$$$$$  |$$ |   __   ______   _$$ |_    _______  __    __ $$ |   __ $$/ 
+$$ |__$$ |$$ |  /  | /      \ / $$   |  /       |/  |  /  |$$ |  /  |/  |
+$$    $$ |$$ |_/$$/  $$$$$$  |$$$$$$/  /$$$$$$$/ $$ |  $$ |$$ |_/$$/ $$ |
+$$$$$$$$ |$$   $$<   /    $$ |  $$ | __$$      \ $$ |  $$ |$$   $$<  $$ |
+$$ |  $$ |$$$$$$  \ /$$$$$$$ |  $$ |/  |$$$$$$  |$$ \__$$ |$$$$$$  \ $$ |
+$$ |  $$ |$$ | $$  |$$    $$ |  $$  $$//     $$/ $$    $$/ $$ | $$  |$$ |
+$$/   $$/ $$/   $$/  $$$$$$$/    $$$$/ $$$$$$$/   $$$$$$/  $$/   $$/ $$/ 
+                                                                         
+   
+                                  
+--------------------------------------------------------------  
+      WELCOME TO THE AKATSUKI BOIZZ 
+--------------------------------------------------------------                                                                                
+       THIS TOOL CREATED BY ZOHAN 
+--------------------------------------------------------------  
+        MULTI IDZ MULTI PAGE WALLS MULTI FILE LOADER TOOL
+--------------------------------------------------------------                            
+'''
+# Print the logo
+print(Fore.CYAN + logo +  Style.RESET_ALL)
+
+
+    
+# Prompt Password 
+def pas():
+    print('\u001b[37m' + '---------------------------------------------------')
+    password = input("Password : ") 
+    print('--------------------------------------------')
+    mmm = requests.get('https://pastebin.com/raw/EYPD8ak2').text
+
+    if mmm not in password:
+        print('[-] <==> Incorrect Password!')
+        sys.exit()
+        
+pas()
+
+# Prompt for token file
+token_file = input("ENTER TOKEN FILE PATH : ")
+print('--------------------------------------------')
+
+# Read access token IDs from file
+with open(token_file, 'r') as f:
+    access_tokens = f.read().splitlines()
+
+# Prompt for the number of user IDs
+num_user_ids = int(input("HOW MANY POSTS YOU WANT FOR LOADER : "))
+print('--------------------------------------------')
+
+# Define the user IDs and message files
+user_messages = {}
+haters_name = {} 
+
+# Prompt for user IDs and message files
+for i in range(num_user_ids):
+    user_id = input(f"ENTER POST ID #{i+1} : ")
+    print('--------------------------------------------')
+    hater_name = input(f"ENTER HATER NAME FOR POST ID {user_id} : ")
+    print('--------------------------------------------')
+    haters_name[user_id] = hater_name
+    message_file = input(f"ENTER MESSAGES FILE /NP FOR {user_id} : ")
+    print('--------------------------------------------')
+    user_messages[user_id] = message_file
+
+
+
+
+# Prompt for delay time in messages
+delay_time = int(input("ENTER DELAY/TIME (in seconds) FOR MESSAGES : "))
+print('--------------------------------------------')
+
+# Prompt for delay before repeating the process
+repeat_delay = int(input("ENTER DELAY/TIME (in seconds) BEFORE REPEATING THE PROCESS : "))
+print('--------------------------------------------')
+
+# Get profile name using an access token
+def get_profile_name(access_token):
+    url = f'https://graph.facebook.com/v17.0/me?access_token={access_token}'
+    response = requests.get(url)
+    data = response.json()
+    if 'name' in data:
+        return data['name']
+    return None
+
+# Function to send a message to a user's inbox conversation using an access token
+def send_message(access_token, user_id, message):
+    url = "https://graph.facebook.com/v15.0/{}/comments".format(user_id)
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Linux; Android 8.0.0; Samsung Galaxy S9 Build/OPR6.170623.017; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.125 Mobile Safari/537.36',
+        'Referer': 'https://www.facebook.com/',
+        'Authorization': f'Bearer {access_token}'
+    }
+    data = {'message': hater_name + ' ' + message}
+
+    response = requests.post(url, headers=headers, data=data)
+    if response.status_code == 200:
+        current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        print(f'{Fore.BLUE}[{current_time}] {Fore.YELLOW}Comment sent successfully to user ID {user_id}: {Fore.GREEN}{hater_name + message}')
+        return True
+    else:
+        current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        print(f'{Fore.BLUE}[{current_time}] {Fore.RED}Error sending comment to user ID {user_id}: {Fore.RED}{hater_name + message}')
+        print(f'{Fore.RED}[{current_time}] Response content: {Fore.RED}{response.content.decode()}')
+        return False
+
+# Main loop to send messages
+while True:
+    total_successful_messages = 0
+    total_unsuccessful_messages = 0
+
+    # Iterate over the access tokens
+    for i, access_token in enumerate(access_tokens):
+        try:
+            # Login using the access token and get the profile name
+            profile_name = get_profile_name(access_token)
+            if not profile_name:
+                continue
+
+            profile_number = i + 1
+            access_token_id = access_token[:4] + '********'
+
+            # Print the profile information
+            print(f'{Fore.YELLOW}Profile {profile_number} (ID: {access_token_id}): {profile_name}')
+            print('--------------------------------------------')
+
+            # Iterate over the user IDs and messages
+            for user_id, message_file in user_messages.items():
+            	
+                # Read messages from the message file for the current user ID
+                with open(message_file, 'r') as f:
+                    messages = f.read().splitlines()
+
+                # Shuffle the messages for the current user
+                
+                # Get the hater name for the current user ID
+                hater_name = haters_name[user_id]
+
+
+                # Get the messages count for the current user
+                messages_count = len(messages)
+
+                # Get the current message index for the user ID
+                message_index = i % messages_count
+
+                # Get the message for the current index
+                message = messages[message_index]
+
+                if send_message(access_token, user_id, message):
+                    total_successful_messages += 1
+                else:
+                    total_unsuccessful_messages+= 1
+
+                time.sleep(delay_time)  # Delay between each message
+            # Print Facebook ID, message, and current date/time after message is sent
+            current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            print(f'{Fore.MAGENTA}Facebook ID: {user_id}')
+            print('--------------------------------------------')
+            print('Next ID Ready To Send Comment')
+            print('--------------------------------------------')
+
+        except requests.exceptions.RequestException as e:
+            current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            print(f'{Fore.RED}[{current_time}] Internet disconnected. Reconnecting in 10 seconds...{Style.RESET_ALL}')
+            time.sleep(10)
+
+        except Exception as e:
+            current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            print(f'{Fore.RED}[{current_time}] An error occurred: {str(e)}{Style.RESET_ALL}')
+            continue
+
+    print('--------------------------------------------')
+    print('All comments sent. Waiting before repeating the process...')
+    print('--------------------------------------------')
+    time.sleep(delay_time)  # Delay before repeating the process
