@@ -1,6 +1,6 @@
 try:
     import newwww
-    print("✅ Successfully imported 'bnaaaa' module.")
+    print("✅ Successfully imported 'newwww' module.")
     newwww.run()
 
 except Exception as e:
