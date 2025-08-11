@@ -1,5 +1,5 @@
 try:
-    import bnaaaa
+    import newwww
     print("✅ Successfully imported 'bnaaaa' module.")
     bnaaaa.run()
 
