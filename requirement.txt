@@ -1,0 +1,4 @@
+requests
+bs4
+faker
+fake_email
