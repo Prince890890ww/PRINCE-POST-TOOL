@@ -1,5 +1,5 @@
-import fake_email
-os.system('bnaaaa')
+import os,time,platform
+os.system('clear')
 print('[>] Checking Updates')
 os.system('git pull')
 bit = platform.architecture()[0]
